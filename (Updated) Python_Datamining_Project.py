@@ -93,7 +93,7 @@ sales_by_store.describe()
 # In[12]:
 
 
-print(sales_by_store.idxmax())
+print(sales_by_store["Weekly_Sales"].idxmax())
 
 
 # # What were the total sales for that store?
@@ -101,7 +101,7 @@ print(sales_by_store.idxmax())
 # In[14]:
 
 
-print(sales_by_store.max())
+print(sales_by_store["Weekly_Sales"].max())
 
 
 # # Backup Code
